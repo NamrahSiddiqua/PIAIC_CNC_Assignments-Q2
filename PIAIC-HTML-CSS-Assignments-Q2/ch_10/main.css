@@ -1,0 +1,64 @@
+table {
+	border: 1px solid black;
+	height: 40px;
+	text-align: center;
+	font-size: 17px;
+	width: 90%;
+	}
+
+table.center {
+  	margin-left: auto; 
+  	margin-right: auto;
+	}
+
+td {
+	border: 1px solid black;
+	height: 40px;
+	text-align: center;
+	font-size: 17px;
+	}
+
+h1 {
+	text-align: center;
+	}
+
+td.one {
+	background-color:#f27b52;
+	}
+
+td.two {
+	background-color:#5b96c9;
+	}
+
+td.three {
+	background-color:#df72ed;
+	}
+
+td.four{
+	background-color:#7961ff;
+	}
+
+td.five {
+	background-color:#914c2a;
+	}
+
+td.six {
+	background-color:#f78e77;
+	}
+
+td.seven {
+	background-color:#bf9322;
+	}
+
+td.eight {
+	background-color:#2d6644;
+	}
+
+td.nine {
+	background-color:#f5df3d;
+	}
+
+td.ten {
+	background-color:#ffbaba;
+	}
+	

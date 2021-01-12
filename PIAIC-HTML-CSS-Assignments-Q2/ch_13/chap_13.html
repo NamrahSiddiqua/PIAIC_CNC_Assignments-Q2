@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Chap: 13</title>
+	<link rel="stylesheet" href="main.css"> 
+</head>
+<body>
+	<div class="column">
+    	<div class="card">
+    		<img src="https://imagevars.gulfnews.com/2019/10/15/Beautiful-scenery-in-Pakistan_16dd0192026_original-ratio.jpg" alt="pakistan beautiful scenery"/>
+	      	<h2>Pakistan</h2>
+	     	<p>Pakistan is a beautiful country. Home to 108 peaks above 7,000 meters, including K2, the south Asian country's mountain scenery is stunning. From the lively cities like Islamabad and Lahore to the beautiful valleys in the north, Pakistan is a perfect place for a unique getaway.<span id="dots">...</span> <span id="more"> <a href="https://www.travelanddestinations.com/best-beautiful-places-in-pakistan/">10 Best and Most Beautiful Places to see in Pakistan</a> </span> </p>
+	      <button class="button" onclick="myFunction()" id="myBtn">Read more</button>
+    	</div>
+ 	</div>
+
+  <div class="column">
+	    <div class="card">
+	      <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/2d/1f/9e/12-apostles-secret-spot.jpg" alt="australia beautiful scenery"/>
+	      <h2>Australia</h2>
+	      <p>Towns and cities are often surrounded by the impressive beauty of Australian nature: beautiful beaches, an ocean within reach and boundless spaces and landscapes that look like they're from another world! ... Australia may not have an extensive history like other countries, but it has a bright future.<span id="dotsA">...</span> <span id="moreA"> <a href="https://www.one.org/international/blog/3-powerful-reasons-why-australia-is-beautiful/">3 powerful reasons why Australia is beautiful</a> </span> </p>
+	      <button class="button" onclick="myFunctionA()" id="myBtnA">Read more</button>
+	    </div>
+  </div>
+  
+  <div class="column">
+	    <div class="card">
+	      <img src="https://wallsdesk.com/wp-content/uploads/2017/01/Seoul-Wallpapers-and-Backgrounds.gif" alt="south korea beautiful scenery"/>
+	      <h2>South Korea</h2>
+	      <p>Due to South Korea being a peninsula, the country offers miles and miles of beautiful coast and stunning beaches. Korea also has a lot of beautiful islands, the most popular and largest one being Jeju Island. ... Moreover, the eastern coast is famous for beautiful sunrises, the earliest in the country.<span id="dotsB">...</span> <span id="moreB"> <a href="https://theculturetrip.com/asia/south-korea/articles/15-reasons-why-you-should-visit-south-korea-at-least-once-in-your-lifetime/">15 Reasons Why You Should Visit South Korea at Least Once in Your Lifetime</a> </span> </p>
+	      <button class="button" onclick="myFunctionB()" id="myBtnB">Read more</button>
+	    </div>
+  </div>
+
+	<script>
+	function myFunction() {
+	  var dots = document.getElementById("dots");
+	  var moreText = document.getElementById("more");
+	  var btnText = document.getElementById("myBtn");
+
+	  if (dots.style.display === "none") {
+	    dots.style.display = "inline";
+	    btnText.innerHTML = "Read more"; 
+	    moreText.style.display = "none";
+	  } else {
+	    dots.style.display = "none";
+	    btnText.innerHTML = "Read less"; 
+	    moreText.style.display = "inline";
+	  }
+	}
+
+	function myFunctionA() {
+	  var dots = document.getElementById("dotsA");
+	  var moreText = document.getElementById("moreA");
+	  var btnText = document.getElementById("myBtnA");
+
+	  if (dots.style.display === "none") {
+	    dots.style.display = "inline";
+	    btnText.innerHTML = "Read more"; 
+	    moreText.style.display = "none";
+	  } else {
+	    dots.style.display = "none";
+	    btnText.innerHTML = "Read less"; 
+	    moreText.style.display = "inline";
+	  }
+	}
+
+	function myFunctionB() {
+	  var dots = document.getElementById("dotsB");
+	  var moreText = document.getElementById("moreB");
+	  var btnText = document.getElementById("myBtnB");
+
+	  if (dots.style.display === "none") {
+	    dots.style.display = "inline";
+	    btnText.innerHTML = "Read more"; 
+	    moreText.style.display = "none";
+	  } else {
+	    dots.style.display = "none";
+	    btnText.innerHTML = "Read less"; 
+	    moreText.style.display = "inline";
+	  }
+	}
+	</script>
+
+</body>
+</html>

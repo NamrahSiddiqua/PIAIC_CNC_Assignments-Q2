@@ -1,0 +1,56 @@
+
+		* {
+  			box-sizing: border-box;
+		}
+
+		body {
+		  font-family: Arial, Helvetica, sans-serif;
+		  margin-left: 150px;
+		}
+
+		.column {
+			float: left;
+			width: 30%;
+			padding: 10px 30px;
+		}
+
+		@media screen and (max-width: 600px) {
+		  .column {
+		    width: 100%;
+		    display: block;
+		    margin-bottom: 20px;
+		  }
+		}
+
+		.card {
+			  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			  padding: 16px;
+			  text-align: left;
+			  background-color: #f1f1f1;
+		}
+
+		.column img {
+		  margin-top: 4px;
+		  vertical-align: middle;
+		  width: 100%;
+		  height: 200px;
+		}
+
+		.button {
+		  background-color: #008CBA;
+		  border: none;
+		  color: white;
+		  padding: 15px 32px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		}
+
+		#more {display: none;}
+
+		#moreA {display: none;}
+
+		#moreB {display: none;}
